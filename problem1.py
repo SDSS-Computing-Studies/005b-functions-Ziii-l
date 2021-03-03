@@ -19,9 +19,10 @@ def hypotenuse(a,b,c):
         hypotenuse = math.sqrt(a*a+b*b)
         return hypotenuse
     else:
-        list=[a,b,c]
+        list=[a,b]
         list.sort()
         return list[-1]
+        side = math.sqrt((list[-1])**2 + (list[0])**2)
 
 # this should return a value of 5
 hypotenuse(3,4,True)
