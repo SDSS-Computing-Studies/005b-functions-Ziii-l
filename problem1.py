@@ -8,17 +8,21 @@ Return the missing side
 (2 points)
 """
 import math
-def hypotenuse(value):
-    #input: a, b are float numbers; boolean
+def hypotenuse(a,b,c):
+    #input: 
+    #      a is a float number
+    #      b is a float number
+    #      c is boolean
     # hypotenuse = math.sqr(a*a+b*b)
     #return: the missing side
-    if boolean ==True:
+    if c ==True:
         return hypotenuse
     else:
-        value.sort()
-        return value[-1]
+        list=[a,b,c]
+        list.sort()
+        return list[-1]
 
 # this should return a value of 5
-x = (3,4,True)
+hypotenuse(3,4,True)
 # this should return a value of 12
-y = (13,5,False)
+hypotenuse(13,5,False)
