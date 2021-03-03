@@ -10,10 +10,13 @@ Return False if the number is not an integer
 def isInteger( number):
     # input: a float number
     # return: True if the number is an integer
-    # return: Flase,if the number is not a integer
-    return number.isInteger()
+    # return: False,if the number is not a integer
+    if number==int(number):
+        return True
+    else:
+        return False
 # This should return Flase
-x = ( 9.5 )
+x = isInteger( 9.5 )
 # This should be return True
 y = ( -2 )
 
