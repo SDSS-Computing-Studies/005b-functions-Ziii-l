@@ -11,7 +11,7 @@ def largest(number):
     # input:
     #       a list of number
     #return value: the largest number in the list
-    number.sort(number)
+    number.sort()
     return   number[-1]
 #this should be return a value of 13
 x = ([3,1,4,7,13,9])
