@@ -16,6 +16,7 @@ def hypotenuse(a,b,c):
     # hypotenuse = math.sqr(a*a+b*b)
     #return: the missing side
     if c ==True:
+        hypotenuse = math.sqrt(a*a+b*b)
         return hypotenuse
     else:
         list=[a,b,c]
