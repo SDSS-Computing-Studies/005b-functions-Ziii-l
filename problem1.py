@@ -23,6 +23,7 @@ def hypotenuse(a,b,c):
         list.sort()
         hypotenuse = list[-1]
         c = math.sqrt( (hypotenuse*hypotenuse)-(list[0]*list[0]) )
+        return c
 
 # this should return a value of 5
 hypotenuse(3,4,True)
