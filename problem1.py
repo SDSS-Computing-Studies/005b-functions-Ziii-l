@@ -12,7 +12,7 @@ def hypotenuse(value):
     #input: a, b are float numbers; boolean
     # hypotenuse = math.sqr(a*a+b*b)
     #return: the missing side
-    if boolean is True:
+    if boolean ==True:
         return hypotenuse
     else:
         value.sort()
