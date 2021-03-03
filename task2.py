@@ -7,12 +7,12 @@ The return value is the largest value in the list
 (2 points)
 """
 
-def largest():
+def largest(number):
     # input:
-    #       a list
-    #return value: the largest value in the list
-    sorted(list)
-    return   list[-1]
+    #       a list of number
+    #return value: the largest number in the list
+    number.sort(number)
+    return   number[-1]
 #this should be return a value of 13
 x = ([3,1,4,7,13,9])
 
