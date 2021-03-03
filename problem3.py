@@ -6,21 +6,21 @@ Output is a sorted list containing all of the factors of that number.
 Note: A Factor is a positive integer that can be evenly divided
 into another number.
 Example: The factors of 10 are 1, 2, 5, 10
+
+output 
+[1,2,5,10]
 (2 points)
 """
-
-def print_factors(x):
-    print("The factors of",x,"are:")
-    for i in range(1, x + 1):
-       if x % i == 0:
-           print(i)
-
-num=12
-
-print_factors(num)
-
-count = 37
-
-print_factors(count)
-    
-
+def factor(num,count):
+    num=12
+    factors=[]
+    for i in range(1,num+1):
+        if num%i==0:
+            factors.append(i)
+    print ("Factors of {} = {}".format(num,factors))
+    count =37
+    factors=[]
+    for i in range(1,count+1):
+        if count%i==0:
+            factors.append(i)
+    print ("Factors of {} = {}".format(count,factors))
