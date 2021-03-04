@@ -9,3 +9,7 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
+def distance(c1,c2):
+    #input: 2 tuples, that each contain an (x,y) coordinate.
+    #return value:the distance between the (x,y) coordinates.
+    return ((c1[0]-c2[0])**2 + (c1[1]-c2[1])**2)**0.5    
