@@ -19,6 +19,6 @@ def factors(number):
             list.append(-whole_number)
 
             list.append(whole_number)
-    print(whole_number)
+    print([whole_number])
 
 
