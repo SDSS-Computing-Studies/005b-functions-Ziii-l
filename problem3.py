@@ -13,10 +13,9 @@ output
 """
 def factors(number):
     list= []
-    print("factors ("+ str(number) +") == ")
+    print("factors ("+ str(number) +") == ",end = "")
     for whole_number in range(1,number + 1):
         if number % whole_number == 0:
-            list.append(-whole_number)
             list.append(whole_number)
     print(list)
 
