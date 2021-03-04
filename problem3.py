@@ -11,16 +11,14 @@ output
 [1,2,5,10]
 (2 points)
 """
-def factor(num):
-    #input: parameter is a positive integer
-    #output: a sorted list of all the factor of that number
-    list=[]
-    for i in range( 1,num+1):
-        if num % i==0:
-            list.append(i)
-            print ("Factors of {} = {}".format(num,list))    
+def factors(number):
+    list= []
+    print("The factors of",number,"are: ")
+    for whole_number in range(1,number + 1):
+        if number % whole_number == 0:
+            list.append(-whole_number)
 
-parameter1 = 12
-parameter2 = 37
+            list.append(whole_number)
+    print(whole_number)
 
 
