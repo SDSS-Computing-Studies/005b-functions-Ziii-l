@@ -13,7 +13,7 @@ output
 """
 def factors(number):
     list= []
-    print("factors ("+ number +") == ")
+    print("factors ("+ str(number) +") == ")
     for whole_number in range(1,number + 1):
         if number % whole_number == 0:
             list.append(-whole_number)
