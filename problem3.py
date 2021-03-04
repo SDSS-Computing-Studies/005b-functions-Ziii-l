@@ -18,8 +18,5 @@ def factors(number):
         if number % whole_number == 0:
             list.append(whole_number)
             list.sort()
-    print(list)
-#this output is factors(12) == [1,2,3,4,6,12]
-x=12
-y=37
+    return list
 
